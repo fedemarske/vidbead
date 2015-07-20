@@ -68,6 +68,12 @@ body {
     padding-left: 0;
     padding-right: 0;
   }
+
+  .panel-custom{
+    width: 29.5%;
+    float: left;
+    margin-right: 2%;
+  }
   /* Space out the masthead */
   .header {
     margin-bottom: 30px;
@@ -108,5 +114,5 @@ body {
 }
 
 .panel-custom{
-  width: 30%;
+
 }
