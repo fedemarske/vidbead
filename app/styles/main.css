@@ -73,6 +73,7 @@ body {
     width: 29.5%;
     float: left;
     margin-right: 2%;
+    border-radius: 0px;
   }
   /* Space out the masthead */
   .header {
@@ -113,6 +114,8 @@ body {
   background-color: black;
 }
 
-.panel-custom{
-
+.right-glyph{
+  float: right;
+  font-size: 20px;
+  margin-right: 2%;
 }
