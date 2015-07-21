@@ -1,33 +1,14 @@
 <div class="row">
-  <div class="col-md-4">
+  <div class="col-md-4" ng-repeat="video in urls track by $index">
     <div class="panel panel-default">
-      <div class="panel-heading">Video 1
+      <div class="panel-heading">Video {{$index + 1}}
         <span class="glyphicon glyphicon-share-alt right-glyph" aria-hidden="true"></span>
         <span class="glyphicon glyphicon-heart right-glyph" aria-hidden="true"></span>
       </div>
       <div class="panel-body text-center">
         <div>
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ClAQEARNUoQ"></iframe>
+          <iframe class="embed-responsive-item" ng-src="video"></iframe>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-4">
-  <div class="panel panel-default">
-    <div class="panel-heading">Video 2</div>
-    <div class="panel-body text-center">
-      <div>
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ClAQEARNUoQ"></iframe>
-      </div>
-    </div>
-  </div>
-    </div>
-  <div class="col-md-4">
-  <div class="panel panel-default">
-    <div class="panel-heading">Video 2</div>
-    <div class="panel-body text-center">
-      <div>
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ClAQEARNUoQ"></iframe>
       </div>
     </div>
   </div>

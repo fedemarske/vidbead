@@ -8,7 +8,7 @@
  * Controller of the vidbeadApp
  */
 angular.module('vidbeadApp')
-  .controller('AboutCtrl', function () {
+  .controller('ProfileCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
