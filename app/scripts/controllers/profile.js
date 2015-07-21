@@ -8,10 +8,13 @@
  * Controller of the vidbeadApp
  */
 angular.module('vidbeadApp')
-  .controller('ProfileCtrl', function () {
+  .controller('ProfileCtrl', function ($rootScope) {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
+
+    $rootScope.home = ['','color-no-active'];
+    $rootScope.profile = ['active-custom',''];
   });

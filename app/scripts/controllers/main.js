@@ -8,7 +8,7 @@
  * Controller of the vidbeadApp
  */
 angular.module('vidbeadApp')
-  .controller('MainCtrl', function ($scope) {
+  .controller('MainCtrl', function ($scope, $rootScope) {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
@@ -21,7 +21,10 @@ angular.module('vidbeadApp')
       "https://www.youtube.com/embed/ClAQEARNUoQ",
       "https://www.youtube.com/embed/ClAQEARNUoQ",
       "https://www.youtube.com/embed/ClAQEARNUoQ",
-      "https://www.youtube.com/embed/ClAQEARNUoQ",
+      "https://www.youtube.com/embed/ClAQEARNUoQ"
     ];
+
+    $rootScope.home = ['active-custom',''];
+    $rootScope.profile = ['','color-no-active'];
 
   });
