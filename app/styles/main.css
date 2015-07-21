@@ -69,12 +69,6 @@ body {
     padding-right: 0;
   }
 
-  .panel-custom{
-    width: 29.5%;
-    float: left;
-    margin-right: 3.8%;
-    border-radius: 0px;
-  }
   /* Space out the masthead */
   .header {
     margin-bottom: 30px;
@@ -119,3 +113,13 @@ body {
   font-size: 20px;
   margin-right: 2%;
 }
+
+.panel-custom{
+  border-radius: 0px;
+}
+
+.btn-custom{
+  background-color: rgb(47, 45, 45);
+  border-color: rgb(47, 45, 45);
+}
+
